@@ -45,10 +45,10 @@ restartBtn.addEventListener("click", () => {
 const winFunction =(letter) => {
     disabledButtons();
     if(letter == 'X'){
-         msgRef.innerHTML = "&#x1F389; <br> 'X' Wins";
+         msgRef.innerHTML = "&#x1F389; <br> X Wins";
     }
     else{
-        msgRef.innerHTML = "&#x1F389; <br> 'O' Wins";
+        msgRef.innerHTML = "&#x1F389; <br> O Wins";
     }
 }
 // function for draw
