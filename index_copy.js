@@ -58,7 +58,7 @@ const drawFunction = () =>{
 }
 //win logic
 const winChecker = () => {
-    for (const i of winningPattern) {
+    for (let i of winningPattern) {
         let [element1, element2, element3] = [btnRef[i[0]].innerText,
         btnRef[i[1]].innerText, btnRef[i[2]].innerText];
         // check if elements are filled 
