@@ -76,7 +76,6 @@ const winChecker = () => {
 //Display X/O
 btnRef.forEach((element) => {
     element.addEventListener("click", () => {
-        console.log('hola')
         if (XTurn) {
             XTurn = false;
             //Display X
@@ -92,10 +91,10 @@ btnRef.forEach((element) => {
         // Increment count on each click
         count++;
         if (count == 9) {
-    /*        drawFunction();  */
+           drawFunction(); 
         }
         //check for win every click
-  /*       winChecker(); */
+        winChecker();
     })
 })
 //enable buttons and disable pop on page load
